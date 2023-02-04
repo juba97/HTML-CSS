@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+ol{
+    list-style: inherit;
+}
+
+span{
+    display: inline;
+    list-style-type: square;
+}
+ 
+ol{
+    list-style: inherit;
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
+table{
+    display: inline-block;
+}
+table, tr, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 400px;
+    border-style: double;  
+}
