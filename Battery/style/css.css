@@ -1,0 +1,69 @@
+.line{
+    margin: auto;
+    padding-top: 20px;
+    border: dashed;
+    width: 30%;
+    height: 216px;
+}
+.battery{
+    margin: auto;
+    border: 3px solid black;
+    width: 70%;
+    height: 35%;
+}
+.battery2{
+    margin: auto;
+    border: 3px solid black;
+    width: 70%;
+    height: 35%;
+    
+}
+.color{
+    display: inline-block;
+    width: 3%;
+    height: 76px;
+    background-color: red;
+    
+}
+.color2{
+    display: inline-block; 
+    width: 3%;
+    height: 75px;
+    background-color: red;
+}
+
+.color:hover{
+    display: inline-block;
+    transition: width 2s;
+    width: 25%;
+    background-color: orange;
+}
+.color2:hover{
+    display: inline-block;
+    transition: width 2s;
+    width: 100%;
+    background-color: orange;
+}
+.outer{
+    background-color: black;
+    width: 10px;
+    height: 20px;
+    margin-left: 265px;
+    margin-top: 30px;
+}
+.outer2{
+    background-color: black;
+    width: 10px;
+    height: 20px;
+    margin-left: 265px;
+    margin-top: 30px;
+}
+.color2:hover{
+    display: inline-block;
+    transition: width 5s;
+    width: 4% linear reverse infinite;
+    background-color: green
+}
+
+
+
