@@ -1,0 +1,111 @@
+.wrapper>div {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-gap: 5px;
+}
+
+.header {
+    background-color: #FF9B6D;
+    padding: 15px;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 15px;
+
+}
+
+
+.logo {
+    background-color: #FFD37C;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.nav {
+    background-color: #FFD37C;
+    padding: 30px;
+}
+
+.aside {
+    background-color: #ceea41;
+    padding: 15px;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.news {
+    background-color: #a9ba4f;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.events {
+    background-color: #a9ba4f;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #a9ba4f;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.main {
+    background-color: #7DBCA9;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.first {
+    background-color: #8de1ca;
+    padding: 30px;
+}
+
+.second {
+    background-color: #8de1ca;
+    padding: 30px;
+}
+
+.third {
+    background-color: #8de1ca;
+    padding: 30px;
+}
+
+
+.footer {
+    padding: 15px;
+    background-color: #87CEEB;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 15px;
+
+}
+
+.copy {
+    background-color: #8a9dc7;
+    padding: 30px;
+}
+
+.logo2 {
+    background-color: #8a9dc7;
+    text-align: center;
+    padding: 30px 0px;
+}
